@@ -37,7 +37,8 @@ const Contact = () => {
         setError(true);
         return;
       }
-  
+      
+      //@ts-ignore
       emailjs.sendForm('service_ueobaor', 'template_rtoznup', form.current, 'Ma8e5J36TCwhSFiQ9')
         .then((result) => {
             console.log(result.text);
