@@ -55,7 +55,7 @@ const Navbar = () => {
       <div style={{ backgroundColor: `${navBg}` }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
         <div className='flex justify-between items-center py-11 w-full h-full px-2 2xl:px-16'>
           <Link href='/'>
-        <Image src='/../public/assets/navbarLogo.png' alt='/' width='115' height='50'
+        <Image src={'/../public/assets/navbarLogo.png'} alt='/' width='115' height='50'
         />
         </Link>
         <div>
