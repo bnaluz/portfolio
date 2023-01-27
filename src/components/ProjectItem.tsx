@@ -16,7 +16,7 @@ type ProjectItemProps = {
 const ProjectItem = ({title,backgroundImg,projectURL,lang1,lang2,lang3,} : ProjectItemProps) => {
     return <div >
          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-blue-400 to-blue-600'>
-                    <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/'/>
+                    <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} width='1200' height='1200' alt='/'/>
                     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                         <h3 className='text-2xl tracking-wider text-center text-white '>{title}</h3>
                         <p className='pb-4 pt-2 text-white text-center'>{lang1}, {lang2}, {lang3}</p>

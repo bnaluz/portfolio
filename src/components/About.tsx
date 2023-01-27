@@ -12,7 +12,7 @@ const About = () => {
                 <p className='py-2 text-gray-600'>I originally started with learning Javascript, HTML, and CSS, which quickly showed me the endless possibilities of web development. Since then I've started building responsive front-end applications with Next.js </p>
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
             </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 '>
                 <Image src={'/about.png'} alt='/' width='800' height='200' className='rounded-xl'/>
             </div>
         </div>

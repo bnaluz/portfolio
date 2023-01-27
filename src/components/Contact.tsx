@@ -63,7 +63,7 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image src={'/ContactImg.png'} alt='/' width='1200' height='1200' className='rounded-xl hover:scale-105 ease-in duration-300'/>
+                            <Image src={'/ContactImg.png'} alt='/' width='1200' height='1200' className='rounded-xl '/>
                         </div>
                         <div>
                             <h2 className='py-2'>
