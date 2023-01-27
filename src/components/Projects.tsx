@@ -13,7 +13,7 @@ const Projects = () => {
            
             <ProjectItem 
             title='LegiLink Website' 
-            backgroundImg={'/legilink.jpg'}
+            backgroundImg={'/LegiLink.jpg'}
             lang1='Next.js'
             lang2='Typescript'
             lang3='Tailwind'
