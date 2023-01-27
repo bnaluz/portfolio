@@ -5,7 +5,7 @@ import Image, { StaticImageData } from "next/image";
 
 type ProjectItemProps = {
     title:string;
-    backgroundImg: StaticImageData;
+    backgroundImg: string;
     projectURL: string;
     lang1: string;
     lang2: string; 

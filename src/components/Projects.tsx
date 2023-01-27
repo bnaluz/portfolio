@@ -1,6 +1,6 @@
-import LegiImg from '/LegiLink.jpg'
+
 import ProjectItem from './ProjectItem';
-import PortImg from '/Portfolio.jpg'
+
 
 const Projects = () => {
     return (
@@ -10,9 +10,10 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
        
+            //@ts-ignore
             <ProjectItem 
             title='LegiLink Website' 
-            backgroundImg={LegiImg} 
+            backgroundImg={'/legilink.jpg'}
             lang1='Next.js'
             lang2='Typescript'
             lang3='Tailwind'
@@ -21,7 +22,7 @@ const Projects = () => {
 
             <ProjectItem 
             title='Portfolio Website' 
-            backgroundImg={PortImg} 
+            backgroundImg={'/LegiLink.jpg'} 
             lang1='Next.js'
             lang2='Typescript'
             lang3='Tailwind'
