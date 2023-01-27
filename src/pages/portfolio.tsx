@@ -25,11 +25,11 @@ const portfolio = () => {
                          This was a project for me to practice using Next.js' lazy loading images and built in router features. My styling technology of choice was TailwindCSS which is quickly becoming my favorite styling framework. </p>
 
                     <a
-                        href='https://www.legilink.com/'
+                        href='https://github.com/bnaluz/portfolio'
                         target='_blank'
                         rel='noreferrer'
                         >
-                        <button className='px-8 py-2 mt-4'>Change to github</button>
+                        <button className='px-8 py-2 mt-4'>GitHub</button>
                         </a>
                  </div>
 
