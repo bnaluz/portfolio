@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
     return (
@@ -10,7 +11,9 @@ const About = () => {
                 <p className='py-2 text-gray-600'>//"When we strive to become better than we are, everything around us becomes better too.” — Paulo Coelho</p>
                 <p className='py-2 text-gray-600'>I have a passion for building and delivering the best quality web  applications, and love the challenge of continually improving my skillset.</p>
                 <p className='py-2 text-gray-600'>I originally started with learning Javascript, HTML, and CSS, which quickly showed me the endless possibilities of web development. Since then I've started building responsive front-end applications with Next.js </p>
+                <Link href='/#projects'>
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
+                </Link>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 '>
                 <Image src={'/about.png'} alt='/' width='800' height='200' className='rounded-xl'/>
