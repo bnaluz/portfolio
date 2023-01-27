@@ -1,5 +1,5 @@
 import Image from "next/image";
-import LegiLoginImg from '../../public/assets/projects/legilogin.png'
+import LegiLoginImg from '/legilogin.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from "next/link";
 

@@ -1,6 +1,6 @@
-import LegiImg from '../../public/assets/projects/LegiLink.jpg'
+import LegiImg from '/LegiLink.jpg'
 import ProjectItem from './ProjectItem';
-import PortImg from '../../public/assets/projects/Portfolio.jpg'
+import PortImg from '/Portfolio.jpg'
 
 const Projects = () => {
     return (
