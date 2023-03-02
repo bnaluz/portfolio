@@ -16,7 +16,7 @@ const Projects = () => {
             backgroundImg={'/LegiLink.jpg'}
             lang1='Next.js'
             lang2='Typescript'
-            lang3='Tailwind'
+            lang3='TailwindCSS'
             projectURL='/legilink' 
             />
 
@@ -25,8 +25,17 @@ const Projects = () => {
             backgroundImg={'/Portfolio.jpg'} 
             lang1='Next.js'
             lang2='Typescript'
-            lang3='Tailwind'
+            lang3='TailwindCSS'
             projectURL='/portfolio' 
+            />
+
+            <ProjectItem
+            title='Sports Basement Dupe'
+            backgroundImg={'/SbDupeProject.png'}
+            lang1='Next.js'
+            lang2='Typescript'
+            lang3='TailWindCSS'
+            projectURL='/sbdupe'
             />
             
            
