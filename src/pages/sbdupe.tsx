@@ -21,7 +21,7 @@ const sbdupe = () => {
                  <div className='col-span-4'>
                     <p>Project</p>
                     <h2>Overview</h2>
-                    <p>This was a project creating the website to one of my favorite stores. I used Next.js as the framework, written in Typescript, and styled with TailwindCSS.  </p>
+                    <p>This was a project creating the website to one of my favorite stores. I used Next.js as the framework, written in Typescript, and styled with TailwindCSS. The primary focus was taking the look of a website and recreating it visually. The landing page and shop page are made to mimic the live site from Sports Basement.</p>
                     <a
                         href='https://sb-dupe.vercel.app/'
                         target='_blank'
