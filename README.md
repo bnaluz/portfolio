@@ -6,4 +6,6 @@ Each project has its own page where you will find a short description of the pro
 
 Send me an email from the contact form on the site when you make it there :) 
 
+Deployed on vercel. 
+
 -BN
