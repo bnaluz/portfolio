@@ -34,11 +34,11 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl '>
                     <div className='grid grid-col-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={'/javascript.png'} alt='/' width='64' height='64'/>
+                            <Image src={'/typescript.png'} alt='/' width='64' height='64'/>
                         </div>
                         <div>
                             <h3 className='flex flex-col items-center justify-center'>
-                                JAVASCRIPT
+                               TYPESCRIPT
                             </h3>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ const Skills = () => {
                         </div>
                         <div>
                             <h3 className='flex flex-col items-center justify-center'>
-                                TAILWIND
+                                TAILWINDCSS
                             </h3>
                         </div>
                     </div>
