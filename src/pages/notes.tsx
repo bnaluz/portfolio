@@ -1,19 +1,18 @@
 import Image from "next/image";
-import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from "next/link";
+import { RiRadioButtonFill } from "react-icons/ri";
 
-
-
-const portfolio = () => {
-    return <div className='w-full'>
+const notes = () =>{
+return(
+<div className='w-full'>
     <div className='w-screen h-[50vh] relative'>
       <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
-                <Image  className='absolute z-1' layout='fill' objectFit='cover' src={'/Portfolio.jpg'} alt='/' />
+                <Image  className='absolute z-1' layout='fill' objectFit='cover' src={'/notesPage.png'} alt='/' />
                 <div className="absolute top-[70%] max-w-[1440px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-                    <Link href='/'>
-                    <h2 className="py-2 cursor-pointer">bobbynaluz.com</h2>
+                    <Link href='https://study-app-phi.vercel.app/'>
+                    <h2 className="py-2 cursor-pointer">Notes</h2>
                     </Link>
-                    <p>Next.js TailWindCSS</p>
+                    <p>Next.js TypeScript TailWindCSS</p>
                 </div>
             </div>
 
@@ -21,15 +20,22 @@ const portfolio = () => {
                  <div className='col-span-4'>
                     <p>Project</p>
                     <h2>Overview</h2>
-                    <p>My portfolio website utilizing Next.js and TailwindCSS --
-                         This was a project for me to practice using Next.js' lazy loading images and built in router features. My styling technology of choice was TailwindCSS which is quickly becoming my favorite styling framework. </p>
-
-                    <a
-                        href='https://github.com/bnaluz/portfolio'
+                    <p>Notes is created utilizing NextJs framework, React library, and Firebase as realtime database. Users are able to go onto the app and leave notes for themselves or for others, give it a look! </p>
+                         <a
+                        href='https://study-app-phi.vercel.app/'
                         target='_blank'
                         rel='noreferrer'
                         >
-                        <button className='px-8 py-2 mt-4'>GitHub</button>
+                        <button className='px-8 py-2 mt-4'>View it live</button>
+                        </a>
+
+
+                    <a
+                        href='https://github.com/bnaluz/study-app'
+                        target='_blank'
+                        rel='noreferrer'
+                        >
+                        <button className='ml-2 px-8 py-2 mt-4'>GitHub</button>
                         </a>
 
                         
@@ -46,9 +52,20 @@ const portfolio = () => {
                     <RiRadioButtonFill className='pr-1' /> TypeScript
                     </p>
                     <p className='text-gray-600 py-2 flex items-center'>
+                    <RiRadioButtonFill className='pr-1' /> React
+                    </p>
+                    <p className='text-gray-600 py-2 flex items-center'>
                     <RiRadioButtonFill className='pr-1' /> TailwindCSS
                     </p>
-                
+                    <p className='text-gray-600 py-2 flex items-center'>
+                    <RiRadioButtonFill className='pr-1' /> Google Firebase
+                    </p>
+                    <p className='text-gray-600 py-2 flex items-center'>
+                    <RiRadioButtonFill className='pr-1' /> GitHub
+                    </p>
+                    <p className='text-gray-600 py-2 flex items-center'>
+                    <RiRadioButtonFill className='pr-1' /> Vercel
+                    </p>     
                     </div>
                 </div>
              </div>
@@ -59,7 +76,7 @@ const portfolio = () => {
            
             </div>
         </div>    
- 
+)
 }
 
-export default portfolio;
+export default notes;

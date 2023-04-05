@@ -14,7 +14,7 @@ type ProjectItemProps = {
 
 
 const ProjectItem = ({title,backgroundImg,projectURL,lang1,lang2,lang3,} : ProjectItemProps) => {
-    return <div>
+    return (
 
 
          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl py-2 group hover:bg-gradient-to-r from-blue-400 to-blue-600'>
@@ -35,7 +35,7 @@ const ProjectItem = ({title,backgroundImg,projectURL,lang1,lang2,lang3,} : Proje
                     </div> 
         </div>
 
-    </div>
+    )
 }
 
 export default ProjectItem;

@@ -29,6 +29,16 @@ const Projects = () => {
             projectURL='/portfolio' 
             />
 
+<ProjectItem
+            title='Notes'
+            backgroundImg={'/Notes.png'}
+            lang1='Next.js'
+            lang2='Typescript'
+            lang3='TailWindCSS'
+            projectURL='/notes'
+            />
+
+
             <ProjectItem
             title='Sports Basement Dupe'
             backgroundImg={'/SbDupeProject.png'}
@@ -37,8 +47,9 @@ const Projects = () => {
             lang3='TailWindCSS'
             projectURL='/sbdupe'
             />
-            
-           
+
+
+         
              </div>
         </div>
     </div>
