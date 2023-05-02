@@ -6,7 +6,7 @@ const Skills = () => {
             <div className='max-w-[1440px] mx-auto flex flex-col justify-center h-full'>
                 <p className='uppercase text-xl pt-6 tracking-widest text-blue-600'>Skills</p>
                 <h2 className='py-4'>What I Use</h2>
-                <div className='grid md:grid-col-s lg:grid-cols-4 gap-8'>
+                <div className='grid md:grid-cols-5 lg:grid-cols-4 gap-8'>
 
                 <div className='p-6 shadow-xl rounded-xl '>
                     <div className='grid grid-col-2 gap-4 justify-center items-center'>
@@ -19,7 +19,8 @@ const Skills = () => {
                             </h3>
                         </div>
                     </div>
-                </div><div className='p-6 shadow-xl  rounded-xl '>
+                </div>
+                <div className='p-6 shadow-xl  rounded-xl '>
                     <div className='grid grid-col-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={'/css.png'} alt='/' width='64' height='64'/>
@@ -27,6 +28,18 @@ const Skills = () => {
                         <div>
                             <h3 className='flex flex-col items-center justify-center'>
                                 CSS
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl '>
+                    <div className='grid grid-col-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={'/javascript.png'} alt='/' width='64' height='64'/>
+                        </div>
+                        <div>
+                            <h3 className='flex flex-col items-center justify-center'>
+                               JAVASCRIPT
                             </h3>
                         </div>
                     </div>
@@ -43,6 +56,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+               
                 <div className='p-6 shadow-xl rounded-xl '>
                     <div className='grid grid-col-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
@@ -55,6 +69,20 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className='p-6 shadow-xl rounded-xl '>
+                    <div className='grid grid-col-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={'/Zustand.png'} alt='/' width='115' height='80'/>
+                        </div>
+                        <div>
+                            <h3 className='flex flex-col items-center justify-center'>
+                                ZUSTAND
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+             
                 <div className='p-6 shadow-xl rounded-xl '>
                     <div className='grid grid-col-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
@@ -103,6 +131,33 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+                <div className='p-6 shadow-xl rounded-xl '>
+                    <div className='grid grid-col-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={'/prisma.png'} alt='/' width='58' height='64'/>
+                        </div>
+                        <div>
+                            <h3 className='flex flex-col items-center justify-center'>
+                              PRISMA
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='p-6 shadow-xl rounded-xl '>
+                    <div className='grid grid-col-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={'/MongoDB.png'} alt='/' width='64' height='64'/>
+                        </div>
+                        <div>
+                            <h3 className='flex flex-col items-center justify-center'>
+                              MONGODB
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
                 <div className='p-6 shadow-xl rounded-xl '>
                     <div className='grid grid-col-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>

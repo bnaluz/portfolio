@@ -22,7 +22,7 @@ const legilink = () => {
                  <div className='col-span-4'>
                     <p>Work Experience</p>
                     <h2>Overview</h2>
-                    <p>My current work experience is with LegiLink as a front-end developer. I have been able to lend a hand in LegiLink's mission of creating equality in who gets a say in how our government is run through transparency & connection by utilizing my knowledge of React JS and Tailwind CSS to help implement various front-end user interfaces. Users are able to visit the website, and create a profile to immediately get connected with their local legislatures, read through a feed of current legislative bills being proposed, and explore the various tools available to express their stance on current propositions to their local governance. The site is currently hosted online through Vercel, and integrates Supabase as its database.</p>
+                    <p>I am currently working as a front-end developer at LegiLink, where I use React JS and Tailwind CSS to create front-end user interfaces. LegiLink's mission is to promote transparency and connection in government by ensuring equal representation. Users can create a profile on the website to immediately connect with their local legislators, view current legislative bills, and express their stance on current propositions. The site is hosted on Vercel and uses Supabase as its database.</p>
 
                     <a
                         href='https://www.legilink.com/'

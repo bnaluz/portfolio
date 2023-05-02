@@ -9,7 +9,7 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-blue-600'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>//"When we strive to become better than we are, everything around us becomes better too.” — Paulo Coelho</p>
-                <p className='py-2 text-gray-600'>I have a passion for building and delivering the best quality web  applications, and love challenging myself to continually improve my skillset.</p>
+                <p className='py-2 text-gray-600'>Building high-quality web applications is my passion, and I'm constantly pushing myself to improve my skills and knowledge. I thrive on challenging projects that allow me to learn and grow as a developer.</p>
                 <p className='py-2 text-gray-600'>With over two years of experience under my belt, I am well-versed in web development fundamentals and have the expertise to build stunning and functional websites and web applications. I have gained extensive experience working with a wide range of technologies such as HTML, CSS, Javascript and their frameworks and libraries. In addition to my technical skills, I am a strong communicator and team player, having collaborated with designers and developers to deliver projects on time and to specification. Whether you are looking to build a new website, revamp an existing one, or create a custom web application, I have the tools to bring your ideas to life.</p>
                 <Link href='/#projects'>
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>

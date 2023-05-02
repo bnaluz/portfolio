@@ -65,7 +65,7 @@ const Contact = () => {
                         </div>
                         <div>
                         <p className="uppercase pt-8">Connect with me.</p>
-                        <div className='flex items-center justify-between'>
+                        <div className='flex pt-1 items-center justify-evenly'>
 
                         <a href="https://www.linkedin.com/in/bobby-naluz-664283197"
                         target='_blank'
@@ -83,12 +83,6 @@ const Contact = () => {
                             <BsGithub/>
                         </div>
                         </a>
-                       
-                        <Link href='/#contact'>
-                        <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail/>
-                        </div>
-                        </Link>
 
                         </div>
                     </div>

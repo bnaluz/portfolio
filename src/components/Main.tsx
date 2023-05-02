@@ -14,7 +14,7 @@ const Main = () =>{
                     </h1>
                     <h1 className='py-4 text-gray-700'>A Front-End Web Developer</h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                        I'm a web developer that takes pride in providing amazing digital experiences by utilizing the most modern technologies. I'd love to connect!
+                    As a web developer, I am passionate about leveraging modern technologies to create exceptional digital experiences for users. With a focus on functionality and aesthetics, I strive to deliver projects that exceed client expectations. If you are interested in working with a skilled and dedicated developer, I would be delighted to connect with you and discuss your needs. Let's build something great together!
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <a href="https://www.linkedin.com/in/bobby-naluz-664283197"

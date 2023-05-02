@@ -21,9 +21,7 @@ const portfolio = () => {
                  <div className='col-span-4'>
                     <p>Project</p>
                     <h2>Overview</h2>
-                    <p>My portfolio website utilizing Next.js and TailwindCSS --
-                         This was a project for me to practice using Next.js' lazy loading images and built in router features. My styling technology of choice was TailwindCSS which is quickly becoming my favorite styling framework. </p>
-
+                    <p>Welcome to my web portfolio! This site was built using Next.js, Tailwind CSS, React, and TypeScript. I chose this tech stack because of its flexibility, ease of use, and ability to create responsive and performant web applications. I hope you enjoy exploring my portfolio and seeing the potential of this tech stack for your own web projects.</p>
                     <a
                         href='https://github.com/bnaluz/portfolio'
                         target='_blank'
