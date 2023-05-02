@@ -134,7 +134,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl '>
                     <div className='grid grid-col-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={'/prisma.png'} alt='/' width='58' height='64'/>
+                            <Image src={'/Prisma.png'} alt='/' width='58' height='64'/>
                         </div>
                         <div>
                             <h3 className='flex flex-col items-center justify-center'>
@@ -148,7 +148,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl '>
                     <div className='grid grid-col-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={'/MongoDB.png'} alt='/' width='64' height='64'/>
+                            <Image src={'/mongoDB.png'} alt='/' width='64' height='64'/>
                         </div>
                         <div>
                             <h3 className='flex flex-col items-center justify-center'>
