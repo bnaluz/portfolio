@@ -40,14 +40,7 @@ const Main = () =>{
                         </div>
                         </Link>
 
-                        {/* <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <BsFillPersonLinesFill/>
-                        </div> */}
                     </div>
-
-
-
-
 
                 </div>
             </div>

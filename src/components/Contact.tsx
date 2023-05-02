@@ -6,14 +6,9 @@ import Link from "next/link";
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser'
-
-
-
-
+import toast from 'react-hot-toast'
 
 const Contact = () => {
-
-    
 
     const [enteredName,setEnteredName] = useState('')
     const [enteredPhone,setEnteredPhone] = useState('');
@@ -21,14 +16,9 @@ const Contact = () => {
     const [enteredSubject,setEnteredSubject] = useState('');
     const [enteredMessage,setEnteredMessage] = useState('');
     const [error,setError] = useState(false)
-    const [successSend,setSucessSend] = useState(false)
+    
 
     const form = useRef();
-
-    const toggleModal = () =>{
-        setSucessSend(false)
-    }
-
 
     const sendEmail = (e: { preventDefault: () => void; }) => {
       e.preventDefault();
@@ -42,6 +32,7 @@ const Contact = () => {
       emailjs.sendForm('service_ueobaor', 'template_rtoznup', form.current, 'Ma8e5J36TCwhSFiQ9')
         .then((result) => {
             console.log(result.text);
+            toast.success('Message Sent!')
         }, (error) => {
             console.log(error.text);
         });
@@ -51,10 +42,10 @@ const Contact = () => {
         setEnteredSubject('');
         setEnteredMessage('');
         setError(false)
-        setSucessSend(true)
+       
     };
 
-    return <div id='contact' className='w-full lg:h-screen pt-6' onClick={toggleModal}>
+    return <div id='contact' className='w-full lg:h-screen pt-6'>
         <div className='max-w-[1440px] m-auto px-2 py-16 w-full'>
             <p className='uppercase text-xl tracking-widest  text-blue-600'>Contact</p>
             <h2 className='py-4'>Let's connect.</h2>
@@ -99,9 +90,6 @@ const Contact = () => {
                         </div>
                         </Link>
 
-                        {/* <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <BsFillPersonLinesFill/>
-                        </div> */}
                         </div>
                     </div>
 
@@ -115,26 +103,7 @@ const Contact = () => {
                         {/* @ts-ignore */}
                         <form ref={form} onSubmit={sendEmail} >
                             <div className="grid md:grid-cols-2 gap-4 w-full py-2 relative">
-                                
-                                {/* working on successSend */}
-
-                                {successSend? 
-                                    <div onClick={toggleModal} className='absolute top-[170%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl px-6 py-6 bg-gradient-to-r from-blue-400 to-blue-600 '>
-
-
-                                <div className='flex w-full items-center justify-between px-1 shadow-inner'>
-                                    <h3 className="px-2 text-white ">Message Sent! Thank you.</h3>
-                                    <div onClick={toggleModal} className='rounded-full shadow-md shadow-gray-400  bg-white p-1 cursor-pointer'>
-                                    <AiOutlineClose className="text-blue-600 text-lg font-bold"/>
-                                    </div>
-                                     </div>
-                                     
-                                   
-                                </div>:''}
-
-
-                                {/* end successSend */}
-                                
+                                    
                                 <div className="flex flex-col">
                                     <label className="uppercase text-sm py-2">Name</label>
                                 <input className="border-2 rounded-lg p-3 flex border-gray-300" type='text' name="name" value={enteredName} onChange={(e)=> setEnteredName(e.target.value)}></input>
