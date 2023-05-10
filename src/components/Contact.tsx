@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill, BsGithub } from "react-icons/bs";
+import {  BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
