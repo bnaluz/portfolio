@@ -20,7 +20,8 @@ const Navbar = () => {
   useEffect(() => {
     if (
       router.asPath === '/legilink' ||
-      router.asPath === '/portfolio' 
+      router.asPath === '/portfolio' ||
+      router.asPath === '/airbnb' 
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
