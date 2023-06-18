@@ -22,7 +22,7 @@ const legilink = () => {
                  <div className='col-span-4'>
                     <p>Project</p>
                     <h2>Overview</h2>
-                    <p>This is a full stack application designed with TailwindCSS and has full responsiveness. In this application users are able to create an account with their credentials authentication, or use Google and Github authentication. After creating a profile users are then able to start listing their own properties, favoriting properties, and creating/canceling reservations.</p>
+                    <p>This is a full stack application written in TypeScript. I used TailwindCSS while styling the project and added mobile responsiveness. MongoDB is used as the database and I used Prisma to ensure data consistency and create my type safe schema. Google and Github auth options are available for a user to create their account, or they can create credentials on the site. Once logged in, users are able to query through listings and dates to then reserve their booking.</p>
 
                     <a
                         href='https://airbnb-alpha-coral.vercel.app/'
