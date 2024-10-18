@@ -18,20 +18,13 @@ const Projects = () => {
             backgroundImg='/ttc.png'
             />
             <ProjectItem 
-            title='LegiLink Website' 
+            title='LegiLink' 
             backgroundImg={'/LegiLink.jpg'}
             lang1='Nextjs'
             lang2='Typescript'
             lang3='TailwindCSS'
             projectURL='/legilink' 
             />
-            <ProjectItem
-            title='AirBnb'
-            backgroundImg={'/airbnb.png'}
-            lang1='Nextjs'
-            lang2='Typescript'
-            lang3='TailwindCSS'
-            projectURL='/airbnb'/>
             <ProjectItem 
             title='Portfolio Website' 
             backgroundImg={'/Portfolio.jpg'} 
