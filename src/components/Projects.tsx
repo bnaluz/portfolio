@@ -25,14 +25,7 @@ const Projects = () => {
             lang3='TailwindCSS'
             projectURL='/legilink' 
             />
-            <ProjectItem 
-            title='Portfolio Website' 
-            backgroundImg={'/Portfolio.jpg'} 
-            lang1='Nextjs'
-            lang2='Typescript'
-            lang3='TailwindCSS'
-            projectURL='/portfolio' 
-            />
+            
              </div>
         </div>
     </div>
