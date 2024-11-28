@@ -25,6 +25,14 @@ const Projects = () => {
             lang3='TailwindCSS'
             projectURL='/legilink' 
             />
+              <ProjectItem 
+            title='TaskWave' 
+            backgroundImg={'/tw1.png'}
+            lang1='React'
+            lang2='Redux'
+            lang3='Flask'
+            projectURL='/taskwave' 
+            />
             
              </div>
         </div>
