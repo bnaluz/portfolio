@@ -23,11 +23,12 @@ const ttc = () => {
                     <p>Work Experience</p>
                     <h2>Overview</h2>
                     <p>
-                        I collaborated with a non-profit organization to develop a web application for their environmentally conscious fashion show, focused on sustainability and community engagement. The project was built using <strong>Next.js, React, and Tailwind CSS</strong>, allowing for a modern, responsive, and scalable design. My approach emphasized <strong>cost-effective development</strong> to ensure efficient delivery and maintainability.
-                    </p>
-                    <p>
-                        Throughout the project, I actively gathered feedback from stakeholders to ensure the design and functionality aligned with the organization's mission. This included implementing features for <strong>event details, student involvement, and fundraising information</strong>, enabling the non-profit to effectively promote sustainability. By leveraging <strong>responsive design</strong> and a <strong>component-based architecture</strong>, I ensured a smooth user experience across all devices.
-                    </p>
+    I collaborated with a non-profit organization to develop a web application for their environmentally conscious fashion show, an event that welcomed <strong>100 guests</strong>, engaged <strong>50 volunteers</strong>, and successfully raised over <strong>$40,000</strong> for the organization. The project was built using <strong>Next.js, React, and Tailwind CSS</strong>, providing a modern, responsive, and scalable design. My approach emphasized <strong>cost-effective development</strong> to ensure efficient delivery and maintainability.
+</p>
+<p>
+    Throughout the project, I actively gathered feedback from stakeholders to ensure the design and functionality aligned with the organization's mission. This included implementing features for <strong>event details, student involvement, and fundraising information</strong>, enabling the non-profit to effectively promote sustainability. I also integrated <strong>Cloudinary</strong> to optimize and manage event images, ensuring fast loading times and a seamless user experience. By leveraging <strong>responsive design</strong>, I ensured a smooth and engaging experience for users across all devices.
+</p>
+
 
                     <a
                         href='https://www.threadthechange.org/'
@@ -51,6 +52,9 @@ const ttc = () => {
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Next.js
                             </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                 <RiRadioButtonFill className='pr-1' /> Cloudinary
+                             </p>
                         </div>
                     </div>
                 </div>
