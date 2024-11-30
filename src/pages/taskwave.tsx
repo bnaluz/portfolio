@@ -23,15 +23,37 @@ const taskwave = () => {
                 <div className='col-span-4'>
                     <p>Project Experience</p>
                     <h2>Overview</h2>
-                    <p>
-    Task Wave is a project management tool designed to simplify and streamline workflows for teams. As part of a group project, I collaborated with my team to develop a user-friendly application featuring <strong>boards, lists, cards, and comments</strong> for Kanban-style task management. The project was built using <strong>React, Redux, Flask, and PostgreSQL</strong>, ensuring a modern, responsive, and scalable design.
-</p>
-<p>
-    Throughout the development process, I worked on both the <strong>front-end</strong> and <strong>back-end</strong>, integrating <strong>Flask</strong> and <strong>PostgreSQL</strong> to support secure and scalable data storage. I implemented <strong>Redux and Thunks</strong> to handle the application’s complex state, ensuring smooth and consistent updates across components. Additionally, I actively collaborated with team members to gather feedback and refine features, prioritizing functionality and user experience.
-</p>
-<p>
-    Task Wave demonstrates my ability to work effectively in a team, manage complex feature relationships, and deliver polished applications. The project was hosted on <strong>Render</strong>, leveraging a robust architecture for reliability and scalability.
-</p>
+                    <div className="bg-white p-6 rounded-lg shadow-md">
+    <h2 className="text-2xl font-bold text-gray-800 mb-4">Task Wave</h2>
+    <p className="text-gray-600 mb-4">
+        Task Wave is a project management tool designed to simplify workflows and enhance team productivity. Developed as part of a group project, 
+        the application features <strong>boards, lists, cards, and comments</strong> for Kanban-style task management, providing teams with an 
+        intuitive way to organize and track tasks efficiently.
+    </p>
+    
+    <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Key Features:</h3>
+    <ul className="list-disc list-inside text-gray-600 space-y-2">
+        <li><strong>Boards:</strong> Users can create, view, edit, and delete project boards for task organization.</li>
+        <li><strong>Lists:</strong> Enable categorization of tasks within boards, offering a clear overview of different project stages.</li>
+        <li><strong>Cards:</strong> Users can add, update, and delete tasks within lists to manage project details effectively.</li>
+        <li><strong>Comments:</strong> Facilitates team collaboration by allowing users to add, edit, and delete comments on specific tasks.</li>
+    </ul>
+    
+    <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Technology Stack:</h3>
+    <p className="text-gray-600 mb-4">
+        The project was built using <strong>React</strong> and <strong>Redux</strong> for the front-end, ensuring a responsive and dynamic user experience. 
+        On the back-end, <strong>Flask</strong> and <strong>PostgreSQL</strong> were used to provide secure and scalable data management. 
+        The application was hosted on <strong>Render</strong>, leveraging a reliable infrastructure for deployment.
+    </p>
+    
+    <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Collaboration & Impact:</h3>
+    <p className="text-gray-600">
+        I worked on both the <strong>front-end</strong> and <strong>back-end</strong>, integrating Redux to manage complex application state and ensuring seamless 
+        updates across components. By collaborating with team members, I helped prioritize user experience through iterative feedback and feature refinement. 
+        Task Wave showcases my ability to develop scalable and user-friendly applications in a collaborative team environment.
+    </p>
+</div>
+
 
                     <a
                         href='https://task-wave.onrender.com/'
@@ -51,6 +73,9 @@ const taskwave = () => {
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
                          <RiRadioButtonFill className='pr-1' /> Redux
+                        </p>
+                        <p className='text-gray-600 py-2 flex items-center'>
+                         <RiRadioButtonFill className='pr-1' /> CSS
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
                         <RiRadioButtonFill className='pr-1' /> PostgreSQL

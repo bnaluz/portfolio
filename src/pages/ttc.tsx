@@ -22,12 +22,35 @@ const ttc = () => {
                 <div className='col-span-4'>
                     <p>Work Experience</p>
                     <h2>Overview</h2>
-                    <p>
-    I collaborated with a non-profit organization to develop a web application for their environmentally conscious fashion show, an event that welcomed <strong>100 guests</strong>, engaged <strong>50 volunteers</strong>, and successfully raised over <strong>$40,000</strong> for the organization. The project was built using <strong>Next.js, React, and Tailwind CSS</strong>, providing a modern, responsive, and scalable design. My approach emphasized <strong>cost-effective development</strong> to ensure efficient delivery and maintainability.
-</p>
-<p>
-    Throughout the project, I actively gathered feedback from stakeholders to ensure the design and functionality aligned with the organization's mission. This included implementing features for <strong>event details, student involvement, and fundraising information</strong>, enabling the non-profit to effectively promote sustainability. I also integrated <strong>Cloudinary</strong> to optimize and manage event images, ensuring fast loading times and a seamless user experience. By leveraging <strong>responsive design</strong>, I ensured a smooth and engaging experience for users across all devices.
-</p>
+                    <div className="bg-white p-6 rounded-lg shadow-md">
+    <h2 className="text-2xl font-bold text-gray-800 mb-4">Thread the Change</h2>
+    <p className="text-gray-600 mb-4">
+        I collaborated with a non-profit organization, My New Red Shoes, to develop a web application for their environmentally conscious fashion show, an event that welcomed 
+        <strong className="ml-1">100 guests</strong>, engaged <strong>50 volunteers</strong>, and successfully raised over <strong>$40,000</strong> for the organization. 
+        The platform emphasized <strong>sustainability</strong> and <strong>community engagement</strong> by promoting the event and providing key details to its audience.
+    </p>
+    
+    <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Key Features:</h3>
+    <ul className="list-disc list-inside text-gray-600 space-y-2">
+        <li><strong>Event Details:</strong> Provided clear and concise information about the event, including date, time, and location.</li>
+        <li><strong>Student Involvement:</strong> Highlighted student contributions and achievements as part of the event.</li>
+        <li><strong>Fundraising Information:</strong> Showcased the organization’s mission and enabled donations to support their sustainability efforts.</li>
+        <li><strong>Image Management:</strong> Integrated <strong>Cloudinary</strong> to optimize and manage event images, ensuring fast loading times and a seamless user experience.</li>
+    </ul>
+    
+    <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Technology Stack:</h3>
+    <p className="text-gray-600 mb-4">
+        The platform was built using <strong>Next.js</strong>, <strong>React</strong>, and <strong>Tailwind CSS</strong> to create a responsive and scalable web application. 
+        <strong className="ml-1">Cloudinary</strong> was leveraged for efficient media management and optimization.
+    </p>
+    
+    <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Collaboration & Impact:</h3>
+    <p className="text-gray-600">
+        By gathering feedback from stakeholders throughout the development process, I ensured the platform’s design and functionality aligned with the organization’s mission. 
+        The result was a user friendly application that effectively promoted sustainability and community engagement, supporting the non-profit in achieving its goals.
+    </p>
+</div>
+
 
 
                     <a
