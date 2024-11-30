@@ -17,6 +17,14 @@ const Projects = () => {
             projectURL='/ttc' 
             backgroundImg='/ttc.png'
             />
+               <ProjectItem 
+            title='Count Me Inventory' 
+            backgroundImg={'/countme1.png'}
+            lang1='React'
+            lang2='Nextjs'
+            lang3='PostgreSQL'
+            projectURL='/countme' 
+            />
             <ProjectItem 
             title='LegiLink' 
             backgroundImg={'/LegiLink.jpg'}
