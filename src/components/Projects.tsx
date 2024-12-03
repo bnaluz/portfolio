@@ -9,14 +9,7 @@ const Projects = () => {
             <p className='uppercase text-xl tracking-widest text-blue-600'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
-            <ProjectItem 
-            title='Thread The Change' 
-            lang1='Nextjs'
-            lang2='Javascript'
-            lang3='TailwindCSS'
-            projectURL='/ttc' 
-            backgroundImg='/ttc.png'
-            />
+          
                <ProjectItem 
             title='Count Me Inventory' 
             backgroundImg={'/countme1.png'}
@@ -25,14 +18,7 @@ const Projects = () => {
             lang3='PostgreSQL'
             projectURL='/countme' 
             />
-            <ProjectItem 
-            title='LegiLink' 
-            backgroundImg={'/LegiLink.jpg'}
-            lang1='Nextjs'
-            lang2='Typescript'
-            lang3='TailwindCSS'
-            projectURL='/legilink' 
-            />
+         
               <ProjectItem 
             title='TaskWave' 
             backgroundImg={'/tw1.png'}

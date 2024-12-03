@@ -19,9 +19,9 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
-      router.asPath === '/legilink' ||
-      router.asPath === '/portfolio' ||
-      router.asPath === '/airbnb' 
+      
+      router.asPath === '/portfolio'
+      
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
@@ -69,6 +69,9 @@ const Navbar = () => {
                 </Link>
                 <Link href='/#skills' >
                     <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+                </Link>
+                <Link href='/#work' >
+                    <li className='ml-10 text-sm uppercase hover:border-b'>Work Experience</li>
                 </Link>
                 <Link href='/#projects' >
                     <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>

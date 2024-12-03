@@ -6,6 +6,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import ToasterProvider from "@/providers/ToasterProvider";
+import WorkExperience from "@/components/WorkExperience";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
     <Main/>
     <About/>
     <Skills/>
+    <WorkExperience/>
     <Projects/>
     <Contact/>
     </div>
