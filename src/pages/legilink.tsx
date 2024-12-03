@@ -84,7 +84,7 @@ const legilink = () => {
                     </div>
                 </div>
 
-                <Link href='/#projects'>
+                <Link href='/#work'>
                     <p className='underline cursor-pointer text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out'>Back</p>
                 </Link>
             </div>
